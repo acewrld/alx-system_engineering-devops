@@ -21,12 +21,3 @@ def number_of_subscribers(subreddit):
     else:
         # Other errors
         return 0
-
-# Example usage
-subreddit_name = 'programming'
-subscribers = number_of_subscribers(subreddit_name)
-if subscribers:
-    print(f'The subreddit {subreddit_name} has {subscribers} subscribers.')
-else:
-    print(f'The subreddit {subreddit_name} is not valid or not found.')
-
